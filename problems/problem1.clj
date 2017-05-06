@@ -12,9 +12,9 @@
     (do
       (if
         (or
-          (== 0
+          (zero?
               (rem current-val x))
-          (== 0
+          (zero?
               (rem current-val y)))
         (def multiple-sum
           (+ multiple-sum current-val)))

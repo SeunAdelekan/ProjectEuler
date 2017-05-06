@@ -1,3 +1,4 @@
+;; Created by Iyanu Adelekan
 (ns euler.core
   (:gen-class))
 
